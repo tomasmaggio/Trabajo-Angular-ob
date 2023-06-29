@@ -1,19 +1,22 @@
-<div>
-    <div>
+<div class="row">
+    <div class="tittle">
         <input type="checkbox" [checked]="item.completed"> <!--El check box me servirá para saber si tal articulo ya fue pagado o no-->
         {{item.tittle}}
     </div>
-    <div>
+
+    <div class="price">
         {{item.price}}
     </div>
-    <div>
+
+    <div class="quantity">
         {{item.quantity}}
     </div>
-    <div>
+
+    <div class="total">
         {{(item.price*item.quantity)}}
     </div>
 
-    <div>
+    <div class="actions">
         <button>Eliminar</button> <!--El boton eliminar eliminará el producto de mi lista de datos-->
     </div>
 </div>

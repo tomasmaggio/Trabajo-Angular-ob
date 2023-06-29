@@ -22,7 +22,7 @@ export class ItemsComponent implements OnInit {
       },
       {
         id: 1,
-        tittle: 'papa frita',
+        tittle: 'Papa frita Lays',
         price: 3.5,
         quantity: 2,
         completed: true

@@ -26,6 +26,13 @@ export class ItemsComponent implements OnInit {
         price: 3.5,
         quantity: 2,
         completed: true
+      },
+      {
+        id: 2,
+        tittle: 'Coca-Cola',
+        price: 8,
+        quantity: 1,
+        completed: false
       }
 
     ]

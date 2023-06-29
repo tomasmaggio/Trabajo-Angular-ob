@@ -1,5 +1,6 @@
 <div>
     <div>
+        <input type="checkbox" [checked]="item.completed"> <!--El check box me servirá para saber si tal articulo ya fue pagado o no-->
         {{item.tittle}}
     </div>
     <div>
@@ -11,4 +12,9 @@
     <div>
         {{(item.price*item.quantity)}}
     </div>
+
+    <div>
+        <button>Eliminar</button> <!--El boton eliminar eliminará el producto de mi lista de datos-->
+    </div>
 </div>
+

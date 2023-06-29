@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Item } from 'src/app/models/items';
 @Component({
   selector: 'app-items',
   templateUrl: './items.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemsComponent implements OnInit {
 
-  items: Item[];
+  items: Item[] = [];
 
   constructor ( ) { }
 

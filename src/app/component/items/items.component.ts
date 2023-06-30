@@ -13,30 +13,7 @@ export class ItemsComponent implements OnInit {
   constructor ( ) { }
 
   ngOnInit(): void {
-    this.items = [
-      {
-        id: 0,
-        tittle: 'Hamburguesa',
-        price: 10.5,
-        quantity: 4,
-        completed: false
-      },
-      {
-        id: 1,
-        tittle: 'Papa frita Lays',
-        price: 3.5,
-        quantity: 2,
-        completed: true
-      },
-      {
-        id: 2,
-        tittle: 'Coca-Cola',
-        price: 8,
-        quantity: 1,
-        completed: false
-      }
-
-    ];
+    this.items = []
 
     this.getTotal();
   }

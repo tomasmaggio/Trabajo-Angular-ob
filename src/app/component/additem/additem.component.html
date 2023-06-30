@@ -1,0 +1,24 @@
+<form action="" (ngSubmit)="onSubmit()">
+    <h2>Ingresa un nuevo articulo!</h2>
+    <div>
+        <label for="">ID</label>
+        <input type="text" name="id" [(ngModel)]="id"> 
+    </div>
+    
+    <div>
+        <label for="">Nombre del Artículo</label>
+        <input type="text" name="tittle" [(ngModel)]="tittle"> 
+    </div>
+
+    <div>
+        <label for="">Precio</label>
+        <input type="text" name="price" [(ngModel)]="price">
+    </div>
+
+    <div>
+        <label for="">Cantidad</label>
+        <input type="text" name="quantity" [(ngModel)]="quantity">
+    </div>
+
+    <input type="submit" value="Crear">
+</form>

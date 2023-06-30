@@ -9,6 +9,7 @@ import { ItemComponent } from './component/item/item.component';
 import { TotalComponent } from './component/total/total.component';
 import { AdditemComponent } from './component/additem/additem.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FormsModule } from '@angular/forms';
     ItemComponent,
     TotalComponent,
     AdditemComponent,
+    FooterComponent,
 
   ],
   imports: [

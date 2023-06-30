@@ -12,8 +12,8 @@ export class AdditemComponent implements OnInit {
 
   id: number = 0;
   tittle: string = '';
-  price: number = 0;
-  quantity: number = 0;
+  price: number | null = null;
+  quantity: number | null = null;;
 
   constructor (private itemService: ItemService, private router: Router){}
 
@@ -25,8 +25,8 @@ export class AdditemComponent implements OnInit {
     const item = new Item();
     item.id = this.id;
     item.tittle = this.tittle;
-    item.price = this.price;
-    item.quantity = this.quantity;
+    item.price = this.price !== null && this.price !== undefined ? this.price : 0;
+    item.quantity = this.quantity !== null && this.quantity !== undefined ? this.quantity : 0;
     item.completed = false
 
     this.itemService.addItem(item);

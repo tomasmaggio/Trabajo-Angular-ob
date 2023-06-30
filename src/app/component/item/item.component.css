@@ -1,7 +1,18 @@
 .row{
     display: flex;
     box-sizing: border-box;
+    
 }
+
+.completed{
+    text-decoration: line-through;
+    color: rgba(81, 81, 81, 0.605);
+}
+
+.completed .total{
+    color:#3e9c35a2 ;
+}
+
 
 div{
     padding: 5px 0;
@@ -16,11 +27,13 @@ div{
 .price{
     width: 15%;
     padding: 0 5px;
+    text-align: center;
 }
 
 .quantity{
     width: 10%;
     padding: 0 5px;
+    text-align: center;
 }
 
 .total{
@@ -28,6 +41,7 @@ div{
     font-weight:bold;
     color: #3e9c35;
     padding: 0 5px;
+    text-align: center;
 }
 
 .actions{

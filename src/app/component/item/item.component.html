@@ -1,6 +1,6 @@
-<div class="row">
+<div class="row" [ngClass]="{'completed': item.completed}">
     <div class="tittle">
-        <input type="checkbox" [checked]="item.completed"> <!--El check box me servirá para saber si tal articulo ya fue pagado o no-->
+        <input type="checkbox" [checked]="item.completed" (change)="onToggle(item)"> <!--El check box me servirá para saber si tal articulo ya fue pagado o no-->
         {{item.tittle}}
     </div>
 

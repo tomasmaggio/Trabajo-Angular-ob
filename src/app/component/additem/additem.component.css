@@ -6,6 +6,11 @@ form{
 }
 form div{
     padding: 5px 0;
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
 }
 
 form label{
@@ -34,7 +39,7 @@ form input[type=text]{
     border: none;
     border-bottom: 1px solid;
     border-radius: 4px 4px 0 0;
-    height: 56px;
+    height: 46px;
     :hover{
         border-bottom-color: #103f79;
         

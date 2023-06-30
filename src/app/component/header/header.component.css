@@ -1,0 +1,27 @@
+menu{
+    background: rgb(16,63,121);
+    background: linear-gradient(90deg, rgba(16,63,121,1) 19%, rgba(243,178,41,1) 69%);
+    padding: 0;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+menu ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+menu ul li a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}

@@ -1,7 +1,9 @@
-<div class="row" [ngClass]="{'completed': item.completed}">
+<div class="row font1" [ngClass]="{'completed': item.completed}">
     <div class="tittle">
-        <input type="checkbox" [checked]="item.completed" (change)="onToggle(item)"> <!--El check box me servirá para saber si tal articulo ya fue pagado o no-->
-        {{item.tittle}}
+        <label for="">
+            <input class="checkboxx" type="checkbox" [checked]="item.completed" (change)="onToggle(item)"> <!--El check box me servirá para saber si tal articulo ya fue pagado o no-->
+            <span>{{item.tittle}}</span>
+        </label>
     </div>
 
     <div class="price">

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
 import { ItemsComponent } from './component/items/items.component';
 import { ItemComponent } from './component/item/item.component';
+import { TotalComponent } from './component/total/total.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ItemComponent } from './component/item/item.component';
     HeaderComponent,
     ItemsComponent,
     ItemComponent,
+    TotalComponent,
 
   ],
   imports: [
